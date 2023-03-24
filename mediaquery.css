@@ -81,6 +81,13 @@
         font-weight: 200;
         font-size: 1rem;
     }
+    .item{
+        margin: 0 1.2rem 0 1.2rem;
+        color: #fff;
+        font-size: 1rem;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 200;
+    }
 }
 @media screen and (max-width: 700px){
     html{
@@ -116,7 +123,30 @@
         font-size: 1.3rem;
     }
 }
+@media only screen and (max-device-width : 900px) and (orientation: landscape) {
+    .header-wrapper{
+        height: 70vh; 
+    }
+    .text-box{
+        text-align: center;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }   
+    .item{
+        margin: 0 1.2rem 0 1.2rem;
+        color: #fff;
+        font-size: 1rem;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 200;
+    }
+
+}
 @media screen and (max-width: 500px){
+    html{
+        font-size: 42%;
+    }
     .container1-wrapper{
         display: flex;
         flex-direction: column; 
@@ -156,14 +186,11 @@
         font-size: 3rem;
     }
     .container2-text p{
-        font-weight: 200;
         margin-top: 1rem;
         font-size: 1.4rem;
-        font-family: 'Nunito Sans', sans-serif;
     }
     #areas-of-practice{
-        height: 85rem;
-        background-color: #293138;
+        height: 95rem;
     }
     .boxes{
         margin: 2rem;
@@ -186,16 +213,16 @@
         background-color: transparent;
     }
     #our-team{
-        height: 105rem;
+        height: 120rem;
         background-color: #293138;
     }
     .team-img{
-        margin-top: 2rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
     }
     .boxss{
-        margin: 3rem 0rem 3rem 0rem;
+        margin: 2.5rem 0rem 2.5rem 0rem;
     }
     #reviews{
         height: 70rem;
@@ -220,5 +247,23 @@
     .item .fa-solid{
         color: #B89B5E;
         padding: 0 0.5rem 0 0.5rem;
+    }
+}
+@media screen and (max-width: 410px){
+    html{
+        font-size: 37%;
+    }
+    #our-team{
+        height: 115rem;
+    }
+    button{
+        border: 0.15rem solid #C59042;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        color: white; 
+        font-family: 'Nunito Sans', sans-serif;
+        margin-top: -0.5rem; 
+        width: 13rem;
+        cursor: pointer;
     }
 }
