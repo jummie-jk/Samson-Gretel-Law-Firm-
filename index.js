@@ -1,20 +1,4 @@
-// function reveal() {
-//     var reveals = document.querySelectorAll(".boxss")
-// }
-// for (var i = 0; i < reveals.length; i++) {
-//     var windowHeight = window.innerHeight;
-//     var elementTop = reveals[i].getBoundingClientRect().top;
-//     var elementVisible = 550;
-//   }
-//   if (elementTop < windowHeight - elementVisible) {
-//     reveals[i].classList.add("active");
-//   } else {
-//     reveals[i].classList.remove("active");
-//   }
-//   window.addEventListener("scroll", reveal);
 
-// // To check the scroll position on page load
-// reveal();
 let word=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 for (let i=0; i<=word.length; i++){
 if (i===4){
