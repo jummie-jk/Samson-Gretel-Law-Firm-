@@ -1,3 +1,8 @@
+@media screen and (max-width:1500px){
+    #toggleNav {
+        visibility: hidden;
+    }
+}
 @media screen and (max-width:1100px){
     .header-wrapper{
         font-size: 2.5rem;
@@ -25,6 +30,9 @@
     }
     .boxss{
         margin: 0 7rem 0 7rem;
+    }
+    #toggleNav {
+        visibility: hidden;
     }
 }
 @media screen and (max-width:950px){
@@ -89,6 +97,7 @@
         font-weight: 200;
     }
 }
+
 @media screen and (max-width: 700px){
     html{
         font-size: 50%;
@@ -96,6 +105,10 @@
     nav{
         display: none;
     }
+    #toggleNav {
+        visibility: visible;
+    }
+  
     .header-wrapper{
         font-size: 2.5rem;
         height: 45vh;
@@ -123,9 +136,12 @@
         font-size: 1.3rem;
     }
 }
-@media only screen and (max-device-width : 900px) and (orientation: landscape) {
+@media screen and (max-device-width : 896px) and (orientation: landscape) {
     .header-wrapper{
-        height: 70vh; 
+        height: 80vh; 
+    }
+    html{
+        font-size: 45%;
     }
     .text-box{
         text-align: center;
@@ -265,5 +281,26 @@
         margin-top: -0.5rem; 
         width: 13rem;
         cursor: pointer;
+    }
+}
+@media screen and (max-width: 380px){
+    html{
+        font-size: 37%;
+    }
+    #our-team{
+        height: 115rem;
+    }
+    #our-portfolio{
+        height: 110rem;
+ 
+    }
+    #our-team{
+        height: 125rem;
+    }
+    .team-img{
+        margin-top: 1.5rem;
+    }
+    .box{
+        margin-top: 5rem;
     }
 }
