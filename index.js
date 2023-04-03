@@ -44,10 +44,17 @@ counter.forEach((counter) =>{
 }
 )
 
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
+const toggleNav = document.getElementById('toggleNav');
+const navContainer = document.getElementById('navContainer');
+const navLinks = navContainer.getElementsByTagName('a');
+
+toggleNav.addEventListener('click', () => {
+  navContainer.classList.toggle('active');
+});
+
+for (let i = 0; i < navLinks.length; i++) {
+  navLinks[i].addEventListener('click', () => {
+    navContainer.classList.remove('active');
+  });
+}
+

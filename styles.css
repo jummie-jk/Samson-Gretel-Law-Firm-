@@ -146,7 +146,43 @@ button{
       transform: translate(0); }
  }
   
+ /* Navigation Bar */
 
+  /* Style the menu container */
+  #navContainer {
+    position: fixed;
+    top: 0;
+    right: -20rem;
+    width: 20rem;
+    height: 100%;
+    background-color: #1A2530;
+    padding-top: 10rem;
+    padding-left: 5rem;
+    z-index: 99;
+  }
+  
+  #navContainer.active {
+    right: 0;
+  }
+  #navContainer li {
+    list-style: none;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+ 
+  #toggleNav {
+    position: fixed;
+    top: 3rem;
+    right: 4rem;
+    z-index: 999;
+  }
+  .nav-btn{
+    background-color: #1A2530;
+    color: fff;
+    border: 1px solid #1A2530;
+    width: 7rem;
+  }
+  
 
 
 /* Our portfolio */
