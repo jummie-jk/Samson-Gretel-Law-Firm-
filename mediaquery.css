@@ -136,9 +136,12 @@
         font-size: 1.3rem;
     }
 }
-@media only screen and (max-device-width : 900px) and (orientation: landscape) {
+@media screen and (max-device-width : 896px) and (orientation: landscape) {
     .header-wrapper{
         height: 80vh; 
+    }
+    html{
+        font-size: 45%;
     }
     .text-box{
         text-align: center;
